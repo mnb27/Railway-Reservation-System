@@ -178,7 +178,7 @@ if(isset($_POST['bypnr'])){
 				}
 				else
 				{
-				    echo "<div class=\"alert alert-error\"  style=\"margin:50px 300px;\"> Search for the train... </div>";
+				    echo "<div class=\"alert alert-error\"  style=\"margin:50px 300px;\"> Enter PNR to check... </div>";
 				}
 				mysqli_close($conn);
 				?>
